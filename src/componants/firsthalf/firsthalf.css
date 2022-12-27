@@ -1,0 +1,84 @@
+.container{
+position: absolute;
+width: 642px;
+height: 1024px;
+left: 0px;
+top: 0px;
+position: absolute;
+width: 642px;
+height: 1024px;
+background-color: #1565D8;
+background-image: url("../../assets/images/bg.png");
+opacity: 0.9;
+}
+
+
+.logo2{
+    transform: rotate(90deg);
+    transform: translate(-45px,19px); 
+}
+.logo{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-bottom: 200px;
+}
+.textlogo{
+color: white;
+font-family: 'Raanana';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+padding-top: 30px;
+margin-left: -40px;
+}
+.dot{
+    margin-top: 80px;
+    margin-left: 410px;
+}
+.doticon{
+    width: 80px;
+    height: 70px;
+}
+.cicon{
+    width: 30px;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.pa{
+    margin-top: 60px;
+}
+.paragragh{
+    margin-left: 90px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+width: 383px;
+height: 164px;
+color: #FFFFFF;
+}
+.h{
+    margin-left: 90px;
+width: 124px;
+height: 38px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 48px;
+align-items: center;
+color: #FFFFFF;
+}
+
+.rk{
+    
+width: 33.5px;
+height: 33px;
+margin-left: 420px;
+
+background: #FFFFFF;
+transform: matrix(-1, 0, 0, 1, 0, 0);}
