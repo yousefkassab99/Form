@@ -7,9 +7,9 @@ import "./page.css"
 function Page2() {
   return (
     <div className='page2'>
-      {/* <div className='div1'>
+      <div className='div1'>
       <First/>
-      </div> */}
+      </div>
       <div className='div2'>
       <Second/>
       </div>

@@ -2,12 +2,15 @@ import React from "react";
 import "./second.css";
 import arr from "../../assets/icons/arr.png";
 import google from "../../assets/icons/google.png";
+import In from "../../assets/icons/In.png"
+import Tw from "../../assets/icons/Tw.png"
+import Gi from "../../assets/icons/Gi.png"
 
 function Second() {
   const [formData, setFormData] = React.useState({
     Email: "",
-    password: "",
-    Repeatpassword: "",
+    password: ""
+  
   });
 
   console.log(formData.comments);
@@ -29,7 +32,7 @@ function Second() {
   }
 
   return (
-    <div>
+    <div >
       <div>
         <div>
           <span className="spanarr">
@@ -38,23 +41,30 @@ function Second() {
           <span className="arrtext">Back</span>
         </div>
         <div className="textpar">
-          <h1>Register Individual Account!</h1>
+          <h1>Join the game!</h1>
           <p>
-            For the purpose of gamers regulation, your details are required.
+          Go inside the best gamers social network!
           </p>
         </div>
+        <div className="rec">
+        <img src={google} className="goimg" />
+        <img src={Tw} className="goimg" />
+        <img src={In} className="goimg" />
+        <img src={Gi} className="goimg" />
+        
+      </div>
       </div>
 
       <form className="formpu" onSubmit={handleSubmit}>
-        <label className="e1">Email address*</label>
+        <label className="e1">Your email</label>
         <input
           type="Email"
-          placeholder="Enter email address"
+          placeholder="Write your email"
           onChange={handleChange}
           name="Email"
           value={formData.Email}
         />
-        <label className="e1">Create password*</label>
+        <label className="e1">Enter your password</label>
         <input
           type="password"
           placeholder="password"
@@ -62,34 +72,15 @@ function Second() {
           name="password"
           value={formData.password}
         />
-        <label className="not">Not bad but you know you can do it better</label>
-        <br />
-        <label className="e1">Repeat password*</label>
-        <input
-          type="password"
-          placeholder="Repeat password"
-          onChange={handleChange}
-          name="Repeatpassword"
-          value={formData.Repeatpassword}
-        />
-        <input
-          type="checkbox"
-          id="isFriendly"
-          checked={formData.isFriendly}
-          onChange={handleChange}
-          name="isFriendly"
-          className="ch"
-        />
-        <label >I agree to terms & conditions</label>
+        
+       
 
         <br />
         <button>Register Account</button>
+        <label >I agree to terms & conditions</label>
       </form>
 
-      <div className="rec">
-        <img src={google} className="goimg" />
-        <span className="logspan">login</span>
-      </div>
+     
     </div>
   );
 }

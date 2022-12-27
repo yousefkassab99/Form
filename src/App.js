@@ -5,8 +5,8 @@ import Page2 from "./pages/page2";
 function App() {
   return (
    <div>
-   {/* <Page1/> */}
-   <Page2/>
+   <Page1/>
+   {/* <Page2/> */}
    </div>
   );
 }

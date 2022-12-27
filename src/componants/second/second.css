@@ -2,6 +2,9 @@
     margin-left: 70px;
    margin-top: 80px;
    }
+   /* .container{
+    background: #E5E5E5;
+   } */
    .spanarr{
        padding-top: 100px;
    }
@@ -84,6 +87,7 @@
        margin-left: 150px;
        display: block;
        width: 415px;
+       margin-top: 20px;
    
    }
    input {

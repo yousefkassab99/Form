@@ -9,9 +9,9 @@ function Page1() {
       <div className='div1'>
       <Firsthalf/>
       </div>
-      {/* <div className='div2'>
+      <div className='div2'>
       <Otherhalf/>
-      </div> */}
+      </div>
     </div>
   )
 }
