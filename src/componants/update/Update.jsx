@@ -13,9 +13,9 @@ import fr from "../../assets/images/fr.png"
 import "./update.css";
 
 export default function Update() {
-  const [popular, setPopular] = useState([]); //لانو الي راح يرجع من الفيتش اراي من الاوبجيكت
-  const [filtered, setfiltered] = useState([]); //هادي بتجيب اجزاء منهم بس نحط على الباتون
-  const [activeGenre, setactiveGenre] = useState(0); //للبتون كل ما نضغط على البتون وبتعمل يوز ايفيكت بالفيلتير
+  const [popular, setPopular] = useState([]); 
+  const [filtered, setfiltered] = useState([]); 
+  const [activeGenre, setactiveGenre] = useState(0); 
 
   useEffect(() => {
     fetchPopular();
