@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbarWrapper">
-      <span className="span1">Welcome back,<br/>Jenny!</span>
+      
         <div className="navbarRight">
-
+        <span className="span1">Welcome back,<br/>Jenny!</span>
           <img
             className="avatar"
             src={logo}
