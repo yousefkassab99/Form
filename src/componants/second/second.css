@@ -8,9 +8,14 @@
    .spanarr{
        padding-top: 100px;
    }
+   .form{
+    position: relative;
+    margin-top: 20px;
+   }
    .arrtext{
        margin-left: 20px;
        margin-top: -60px;
+       text-decoration: none;
    
    
    font-family: 'Inter';
@@ -127,7 +132,10 @@
    color: #FFFFFF;
    }
    .e1{
-       margin-bottom: 30px;
+       margin-top: 7px;
+   }
+   .e11{
+       margin-top: 30px;
    }
    .not{
        color: darkorange;

@@ -1,12 +1,17 @@
 import React from "react";
 import "./second.css";
 import arr from "../../assets/icons/arr.png";
-import google from "../../assets/icons/google.png";
+import goo from "../../assets/icons/goo.png"
 import In from "../../assets/icons/In.png"
 import Tw from "../../assets/icons/Tw.png"
 import Gi from "../../assets/icons/Gi.png"
+import {NavLink} from 'react-router-dom'
+
+
+   
 
 function Second() {
+ 
   const [formData, setFormData] = React.useState({
     Email: "",
     password: ""
@@ -38,7 +43,10 @@ function Second() {
           <span className="spanarr">
             <img src={arr} className="arr" />
           </span>
-          <span className="arrtext">Back</span>
+   
+          <NavLink to="/" className="arrtext">
+          Back
+          </NavLink>
         </div>
         <div className="textpar">
           <h1>Join the game!</h1>
@@ -47,16 +55,29 @@ function Second() {
           </p>
         </div>
         <div className="rec">
-        <img src={google} className="goimg" />
-        <img src={Tw} className="goimg" />
-        <img src={In} className="goimg" />
-        <img src={Gi} className="goimg" />
-        
+        <div className="loginButton google" >
+            <img src={goo} alt="" className="goimg" />
+           
+          </div>
+          <div className="loginButton facebook" >
+            <img src={Tw} alt="" className="goimg" />
+           
+          </div>
+          <div className="loginButton github">
+            <img src={Gi} alt="" className="goimg" />
+         
+          </div>
+          <div className="loginButton github" >
+            <img src={In} alt="" className="goimg" />
+          
+          </div>
+    
       </div>
       </div>
 
+<div className="form">
       <form className="formpu" onSubmit={handleSubmit}>
-        <label className="e1">Your email</label>
+       <div className="e1"> <label >Your email</label></div>
         <input
           type="Email"
           placeholder="Write your email"
@@ -64,22 +85,34 @@ function Second() {
           name="Email"
           value={formData.Email}
         />
+        <div className="e1">
         <label className="e1">Enter your password</label>
+        </div>
         <input
-          type="password"
-          placeholder="password"
+        
+        type="password" 
+        placeholder="•••••••••" 
+         
           onChange={handleChange}
           name="password"
           value={formData.password}
         />
         
+        
        
 
         <br />
-        <button>Register Account</button>
-        <label >I agree to terms & conditions</label>
-      </form>
+        <div className="e11">
 
+
+        <NavLink to="/Page3" >
+      
+        <button>Register Account</button>
+          </NavLink>
+        </div>
+      
+      </form>
+      </div>
      
     </div>
   );

@@ -5,7 +5,9 @@
     
     padding: 10px;
 }
-
+*{
+    background: #F9F9F9;
+}
 .page2{
     display: grid;
     gap: 400px 50px;
@@ -13,3 +15,10 @@
     
     padding: 10px;
 }
+
+.con{
+    display: flex;
+    background: #F9F9F9;
+  }
+
+  
