@@ -4,6 +4,30 @@
     padding-top: 150px;
   }
  
+  .seconddiv{
+    position: relative;
+    width:100%;
+    padding-right: 40px;
+}
+.trophy-img{
+    width: 100%;
+}
+.cup{
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    z-index: 2;
+    border-radius: 40px;
+}
+.circle{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 27px 10px #32fb00, inset 0 0 36px 32px rgb(50 251 0 / 68%);
+}
   .list{
    
     width: 378px;

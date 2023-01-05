@@ -4,12 +4,13 @@ import Movie from "../../movie/Movie";
 // import Filter from '../Filter';
 import { motion, AnimatePresence } from "framer-motion";
 import play1 from "../../assets/images/play1.png"
-import play2 from "../../assets/images/play2.png"
+import play2 from "../../assets/icons/cup.png"
+import play3 from "../../assets/icons/image1.png"
 import e from "../../assets/icons/e.png"
 import e2 from "../../assets/icons/e2.png"
 import e3 from "../../assets/icons/e3.png"
 import e4 from "../../assets/icons/e4.png"
-import fr from "../../assets/images/fr.png"
+import fr from "../../assets/images/friends.png"
 import "./update.css";
 
 export default function Update() {
@@ -63,6 +64,8 @@ export default function Update() {
         <div className="seconddiv">
           <span className="span2">most recent trophy</span>
           <img src={play1} className="img2" width="578px" height="358px"/>
+          <img src={play2} alt="cup img" className='cup' width="108px" height="108px"/>
+          <img src={play3} alt="circle img" className='circle'/>
         </div>
         <div className="thirddiv">
           <span className="span3">friends</span>

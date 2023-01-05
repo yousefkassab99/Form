@@ -1,11 +1,11 @@
 
   import React from "react";
   import "./leftbar.css";
-  import g from "../../assets/icons/g.png"
-  import h from "../../assets/icons/h.png"
-  import ss from "../../assets/icons/ss.png"
-  import p from "../../assets/icons/p.jpg"
-  import m from "../../assets/icons/m.png"
+  import g from "../../assets/icons/LogoGame.png"
+  import h from "../../assets/icons/Like.png"
+  import ss from "../../assets/icons/Setting.png"
+  import p from "../../assets/icons/Puzzle.png"
+  import m from "../../assets/icons/Moon.png"
   import su from "../../assets/icons/su.webp"
   export default function Leftbar() {
     return (
